@@ -1,0 +1,19 @@
+.ChatHeader .User img { display:none; }
+.wordmark img {display:none;}
+header#ChatHeader.ChatHeader { top:20px; height: 24px; border-radius:0px; }
+
+.ChatHeader .User.away .status {position:relative; top:-13px; right:-65px; }
+
+#pingspan {top:5px; left:225px; }
+.ChatHeader h1.private {margin-top:-20px; }
+h1.public.wordmark {display:block !important;}
+.Rail .User {min-height:0px; }
+
+.Rail .User img {display:none;}
+.Rail span.username {position:relative; left:-15px; vertical-align:middle; margin-right:-10px; }
+.User.chat-mod .username::after, .User.staff .username::after {top:-1px; right:px;}
+h1.public.wordmark.selected {display:block !important; background:transparent; box-shadow:0; -webkit-box-shadow:none;}
+h1.public.wordmark.unread {display:block !important;}
+.Rail .public .chevron {display:none !important;}
+
+form#Write > a.wikia-button {border:0px solid; background:#cccccc !important; color:#000000 !important; }
